@@ -8,7 +8,7 @@ This is an application I built to prove proficiency in the tasks outlined in the
 2. Create a public GitHub repo for the code and share the link with us (you're there now ☺).
 3. Optional (but preferable): Deploy to a public URL so we can access the app.
  
-Every deliverable in the following list should be simply a link to the file(s) in the public repo:
+### Every deliverable in the following list should be simply a link to the file(s) in the public repo: ###
 1. Create DB tables based on a many-to-many relationship - choose one to your liking
 	* MySQL DDL - create tables SQL script to populate the tables with a small sample of data and instructions on how to run that script
 2. Using Spring JDBC (Java DataBase Connectivity), create a "service" or a "component" that takes as an input a key for one of the DB entities and returns a list of related instances of the other DB entity.
