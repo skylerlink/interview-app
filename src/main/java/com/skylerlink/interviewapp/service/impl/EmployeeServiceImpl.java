@@ -2,6 +2,7 @@ package com.skylerlink.interviewapp.service.impl;
 
 import com.skylerlink.interviewapp.dto.EmployeeDto;
 import com.skylerlink.interviewapp.entity.Employee;
+import com.skylerlink.interviewapp.exception.ResourceNotFoundException;
 import com.skylerlink.interviewapp.mapper.EmployeeMapper;
 import com.skylerlink.interviewapp.repository.EmployeeRepository;
 import com.skylerlink.interviewapp.service.EmployeeService;
@@ -21,5 +22,13 @@ public class EmployeeServiceImpl implements EmployeeService {
         Employee savedEmployee = employeeRepository.save(employee);
 
         return EmployeeMapper.mapToEmployeeDto(savedEmployee);
+    }
+
+    @Override
+    public EmployeeDto getEmployeeById(Long employeeId) {
+        Employee employee = employeeRepository.findById(employeeId)
+                .orElseThrow(() -> new ResourceNotFoundException("Could not find an employee with id " + employeeId));
+
+        return EmployeeMapper.mapToEmployeeDto(employee);
     }
 }
