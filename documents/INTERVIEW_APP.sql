@@ -11,4 +11,4 @@ CREATE TABLE `employees` (
   UNIQUE KEY `UK_qftatm5oorav2hj3mvoyrlh7o` (`email_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
-INSERT INTO `employees` VALUES (1,'notSkylersEmail@gmail.com','Skyler','Link'),(2,'tc@gmail.com','Timothee','Chalamet'),(3,'testemployee@gmail.com','Test','Employee'),4,'jcena@hotmail.com','John','Cena'),(5,'DROP TABLE employees; @gmail.com','Bobby','Tables');
+INSERT INTO `employees` VALUES (1,'notSkylersEmail@gmail.com','Skyler','Link'),(2,'tc@gmail.com','Timothee','Chalamet'),(3,'testemployee@gmail.com','Test','Employee'),(4,'jcena@hotmail.com','John','Cena'),(5,'DROP TABLE employees; @gmail.com','Bobby','Tables');
