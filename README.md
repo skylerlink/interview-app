@@ -26,3 +26,9 @@ Front end is currently only working on dev builds, but when that gets working:
 2. Run [INTERVIEW_APP.sql](documents/INTERVIEW_APP.sql)
 3. Download latest [release .jar file](https://github.com/skylerlink/interview-app/releases/)
 4. Run java -jar interview-app.jar
+
+### Screenshots ###
+
+![image](https://github.com/skylerlink/interview-app/assets/43010471/8df5bfd6-4b92-4ca8-8265-f5add20a2760)
+
+![image](https://github.com/skylerlink/interview-app/assets/43010471/a6caad48-1dfb-4802-96a1-dde3bce89a1f)
