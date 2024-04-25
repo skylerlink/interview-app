@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: com.skylerlink.interviewapp.InterviewAppBackendApplication
+Main-Class: com.skylerlink.interviewapp.InterviewApp
 
